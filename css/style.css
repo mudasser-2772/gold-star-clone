@@ -111,7 +111,6 @@ a:hover,
     box-shadow: none;
     outline: 0;
 }
-
 .bg-black {
     background-color: var(--black-color);
 }
@@ -168,7 +167,6 @@ a:hover,
 }
 
 /* 01 navbar css */
-
 .header {
     background-color: #000;
     padding: 1rem 0;
@@ -220,10 +218,12 @@ a:hover,
 }
 
 .dropdown-item:focus,
-.dropdown-item:hover,
-.header .navbar-nav .nav-link:hover {
-    color: var(--primary-color);
+.dropdown-item:hover:hover {
+    color: #000;
     background-color: transparent;
+}
+.header .navbar-nav .nav-link:hover{
+    color: var(--black-color);
 }
 
 .navbar-nav li:hover>ul.dropdown-menu {
@@ -258,7 +258,6 @@ a:hover,
     color: var(--primary-color);
 }
 /* parallax-effetct */
-
 .parallax {
     position: relative;
     background-position: left;
@@ -297,7 +296,7 @@ a:hover,
 
 .parallax.img1 {
     background-image: url('../images/banner/lowerban.jpg');
-    height:100px,
+    height:50% ;
 }
 
 .parallax.img2 {
@@ -372,7 +371,7 @@ a:hover,
 }
 
 .process-wrapper .process-content span {
-    color: var(--primary-color);
+    color: #000;
     font-size: 7rem;
     font-weight: 800;
     margin-right: 2rem;
@@ -602,4 +601,3 @@ Contact Page CSS
 }
 
 /*------------loader section---------*/
-
