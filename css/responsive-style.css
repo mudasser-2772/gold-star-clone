@@ -34,7 +34,6 @@
 
     .header .navbar-nav .nav-link {
         padding: 0.6rem 0.5rem;
-        margin-bottom: 2rem;
 
     }
 
@@ -67,6 +66,14 @@
 
 /* Media Query 767px */
 @media (max-width:767.5px) {
+    .mudssr3 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 30px;
+        min-width: 200px;
+    
+    }
 
     /* General CSS */
     body,
